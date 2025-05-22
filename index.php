@@ -303,6 +303,7 @@ if ($searchTerm) {
     </main>
     <footer>
         <p>&#x2117; 2024 Eduardo Castillo</p>
+        <p>Licensed under the GNU General Public License v3.0</p>
     </footer>
 </body>
 </html>

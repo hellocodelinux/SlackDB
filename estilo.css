@@ -1,4 +1,4 @@
-        :root {
+:root {
             --bg-color: #202124;
             --text-color: #bdc1c6;
             --search-bar-bg: #303134;
@@ -235,8 +235,9 @@
 
         .compact-search {
             display: flex;
-            padding: 20px;
+            justify-content: center;
             align-items: center;
+            padding: 20px;
             border-bottom: 1px solid var(--separator);
         }
 
@@ -263,11 +264,12 @@
 
             .compact-search {
                 flex-direction: column;
-                align-items: flex-start;
+                align-items: center; /* Cambiado de flex-start a center */
             }
 
             .compact-logo {
                 margin-bottom: 15px;
+                margin-right: 0;
             }
 
             .results-container {
