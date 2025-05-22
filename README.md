@@ -16,3 +16,13 @@ All package data is sourced from the public SlackBuilds.org repository. The data
 ## License
 
 This project is open source and free to use.
+
+## Running Locally (Development Server)
+
+For testing or development purposes, you can use PHP's built-in web server. Navigate to the project's root directory in your terminal and run the following command:
+
+```bash
+php -S localhost:8000
+```
+
+This will start a web server listening on `localhost` on port `8000`. You can then access the application in your web browser at `http://localhost:8000`.

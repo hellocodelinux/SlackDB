@@ -34,7 +34,7 @@
         }
 
         main {
-            flex-grow: 1; /* Allows main content to grow and push footer down */
+            flex-grow: 1;
         }
 
         .search-container {
@@ -275,17 +275,16 @@
             }
         }
 
-.result-section > .result-item {
-    margin-left: 25px; /* Ajusta este valor según la sangría que desees */
-    padding-left: 15px; /* Opcional: si quieres más espacio dentro del borde */
-    border-left: 2px solid var(--separator); /* Usar variable CSS para el color del borde */
-    margin-bottom: 15px; /* Espacio entre los items requeridos/requirentes */
-}
+        .result-section>.result-item {
+            margin-left: 25px;
+            padding-left: 15px;
+            border-left: 2px solid var(--separator);
+            margin-bottom: 15px;
+        }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px; /* Ensures space above the footer */
-    border-top: 1px solid var(--separator); /* Using theme variable for consistency */
-    /* width: 100%; /* Block element, so it's full width by default */
-}
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            border-top: 1px solid var(--separator);
+        }
